@@ -7,15 +7,15 @@
 ####
 
 team_name = 'Team 3' # Only 10 chars displayed.
-strategy_name = 'The name the team gives to this strategy'
-strategy_description = 'How does this strategy decide?'
+strategy_name = 'collude' #can be changed?
+strategy_description = 'player decides'
     
-def move(my_history, their_history, my_score, their_score):
+def move(collude, betray, collude collude, betray betray):
     ''' Arguments accepted: my_history, their_history are strings.
     my_score, their_score are ints.
     
     Make my move.
-    Returns 'c' or 'b'. 
+    Returns 'collude' or 'betray'. 
     '''
 
     # my_history: a string with one letter (c or b) per round that has been played with this opponent.
@@ -29,7 +29,7 @@ def move(my_history, their_history, my_score, their_score):
     return 'c'
 
     
-def test_move(my_history, their_history, my_score, their_score, result):
+def test_move(collude, betray, collude collude, betray betray, score):
     '''calls move(my_history, their_history, my_score, their_score)
     from this module. Prints error if return value != result.
     Returns True or False, dpending on whether result was as expected.
